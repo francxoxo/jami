@@ -1,10 +1,3 @@
-const noteBody = document.getElementById('note-body');
-noteBody.textContent = noteBody.textContent
-    .split(/\n\s*\n/)
-    .map(paragraph => paragraph.split('\n').map(line => line.trim()).join(' ').trim())
-    .filter(Boolean)
-    .join('\n\n');
-
 lottie.loadAnimation({
     container: document.getElementById('animation-container'),
     renderer: 'svg',

@@ -135,6 +135,18 @@
 
                 Jamila, a casa ho comprato davvero delle tisane che mi piacerebbe da morire condividere con te
             </div>
+            <script>
+                (function () {
+                    var noteBody = document.getElementById('note-body');
+                    noteBody.textContent = noteBody.textContent
+                        .split(/\n\s*\n/)
+                        .map(function (paragraph) {
+                            return paragraph.split('\n').map(function (line) { return line.trim(); }).join(' ').trim();
+                        })
+                        .filter(Boolean)
+                        .join('\n\n');
+                })();
+            </script>
 
             <div class="note__animation" id="animation-container"></div>
         </main>
