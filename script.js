@@ -46,6 +46,6 @@ function heartBurst() {
 }
 
 btnYes.addEventListener('click', () => {
-    revealSurprise.textContent = 'Ottima scelta';
+    revealSurprise.textContent = 'Pisciasotto';
     heartBurst();
 });
