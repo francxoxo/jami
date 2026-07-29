@@ -38,7 +38,7 @@ btnNo.addEventListener('pointerdown', (event) => {
 btnNo.addEventListener('pointerenter', dodgeNo);
 
 function heartBurst() {
-    const hearts = ['💚', '🤍', '✨'];
+    const hearts = ['💚', '🦌', '🐈‍⬛'];
     for (let i = 0; i < 16; i += 1) {
         const heart = document.createElement('span');
         heart.className = 'heart';

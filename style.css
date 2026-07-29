@@ -19,7 +19,7 @@ body {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, 'Inter', BlinkMacSystemFont, sans-serif;
     color: var(--text);
     display: flex;
     flex-direction: column;
